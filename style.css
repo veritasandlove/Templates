@@ -1,0 +1,132 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		font-family: 'Open Sans Condensed';
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.first-page {
+		background-image: url(./images/background1.png);
+
+	}
+
+	.header__container {
+		display: flex;
+		justify-content: space-between;
+		width: 57.8%;
+		letter-spacing: 0.1em;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 25px;
+		color: #FFFFFF;
+		padding: 51px 405px 0 405px;
+	}
+
+	.contacts {
+		padding-right: 105px;
+	}
+
+	.phone {
+		font-size: 16px;
+	line-height: 22px;
+	text-align: right;
+	letter-spacing: 0.05em;
+			border-bottom: 2px solid #D1A954;
+	}
+
+	.main {display: flex;
+		
+	}
+.main__container {
+	display: flex;
+	padding: 191px 480px 208px 0;
+}
+.main__text {
+	padding: 115px 90px 0 250px;
+}
+
+.main__title {
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 87px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+	}
+
+.main__description {
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+padding: 35px 0 55px 0;
+line-height: 21px;
+}
+
+.main__button {
+	font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+padding: 13px 47px;
+background: #D1A954;
+}
+
+.main__image {
+	position: relative;
+	z-index: 1;
+	left: 45px;
+}
+
+.main__image-back {
+	position: absolute;
+	right: 481px;
+	top: 288px;
+}
+
+.sidebar {
+	display: flex;
+	justify-content: space-between;
+	width: 150px;
+	background: rgba(51, 51, 51, 0.75);
+	position: fixed;
+	height: 1045px;
+	top: 0;
+}
+.social-networks {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-info {
+	font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+white-space: nowrap;
+color: #C4C4C4;
+height: 25px;
+transform: rotate(-90deg);
+position: absolute;
+top: 383px;
+right: -50px;
+}
+
+.sidebar-line {
+border-left: 3px solid #C4C4C4;
+max-height: 80px;
+}
